@@ -1,11 +1,11 @@
-# Frontend
+# Frontend Script
 In the main script, [Main](https://github.com/iny333/WM_Paper_repo/tree/main/), we show we produced our results. This file loads all of our data and then summarises their LoS evolution.
 We then create the Fisher matrices for our different statistics, as well as their convergences and covariance stability checks, before plotting our Fisher matrices. 
 
 We use [Chain Consumer](https://samreay.github.io/ChainConsumer/) to produce our Fisher plots. This is a relatively simple package to use, we you simply need to give the package 
 you inverse Fisher. 
 
-# Backend
+# Backend Script
 To ready our data, to be used in the main script, we show an example notebook containing functions that 
 create the window functions and then the statistics needed in the main script.
 These can be found in the folder [Backend_Scripts](https://github.com/iny333/WM_Paper_repo/tree/main/Backend_Scripts)
