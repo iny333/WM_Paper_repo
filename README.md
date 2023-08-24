@@ -20,12 +20,10 @@ lightcone_fid = p21c.run_lightcone(
     direc = output_dir,
     zprime_step_factor=1.0005)
 <code>
-
 For our parameters' +/-, for the derivatives, we use:
-
-$T_{vir}$
+$$T_{vir}$$
 Plus: {'ION_Tvir_MIN':4.740362689494244}, Minus: astro_params = {'ION_Tvir_MIN':4.653212513775344}
-$R_{max}$
+$$R_{max}$$
 Plus: astro_params = {'R_BUBBLE_MAX':20}, Minus: astro_params = {'R_BUBBLE_MAX':10}
-$\eta$
+$$\eta$$
 Plus: astro_params = {'HII_EFF_FACTOR':35}, Minus: astro_params = {'HII_EFF_FACTOR':25}
