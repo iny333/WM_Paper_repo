@@ -1,7 +1,7 @@
 # Backend
 To ready our data, to be used in the main script, we show an example notebook containing functions that 
 create the window functions and then the statistics needed in the main script.
-These can be found in the folder [Your Title](your-project-name/tree/master/your-subfolder)
+These can be found in the folder [Backend_Scripts](https://github.com/iny333/WM_Paper_repo/tree/main/Backend_Scripts)
 # For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
 ```python
 import time
