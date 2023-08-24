@@ -18,5 +18,5 @@ lightcone_fid = p21c.run_lightcone(redshift = 8.813873961895457,max_redshift=9.3
 Plus: {'ION_Tvir_MIN':4.740362689494244}, Minus: astro_params = {'ION_Tvir_MIN':4.653212513775344}
 ### $R_{max}$
 Plus: astro_params = {'R_BUBBLE_MAX':20}, Minus: astro_params = {'R_BUBBLE_MAX':10}
-### $\eta$
+### $\zeta$
 Plus: astro_params = {'HII_EFF_FACTOR':35}, Minus: astro_params = {'HII_EFF_FACTOR':25}
