@@ -1,10 +1,10 @@
-For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
+### For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
 <code>
 import time
 start_time = time.time()
 random_seed = int(start_time/np.random.randint(1,50))
 <code>
-Our run of 21cmFast is as follows:
+##Our run of 21cmFast is as follows:
 <code>
 HII_DIM = 256
 BOX_LEN = 140
@@ -21,9 +21,9 @@ lightcone_fid = p21c.run_lightcone(
     zprime_step_factor=1.0005)
 <code>
 For our parameters' +/-, for the derivatives, we use:
-$$T_{vir}$$
+###T_{vir}
 Plus: {'ION_Tvir_MIN':4.740362689494244}, Minus: astro_params = {'ION_Tvir_MIN':4.653212513775344}
-$$R_{max}$$
+###R_{max}
 Plus: astro_params = {'R_BUBBLE_MAX':20}, Minus: astro_params = {'R_BUBBLE_MAX':10}
-$$\eta$$
+###\eta
 Plus: astro_params = {'HII_EFF_FACTOR':35}, Minus: astro_params = {'HII_EFF_FACTOR':25}
