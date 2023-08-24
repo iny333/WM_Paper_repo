@@ -1,7 +1,17 @@
+# Frontend
+In the main script, [Main](https://github.com/iny333/WM_Paper_repo/tree/main/), we show we produced our results. This file loads all of our data and then summarises their LoS evolution.
+We then create the Fisher matrices for our different statistics, as well as their convergences and covariance stability checks, before plotting our Fisher matrices. 
+
+We use [Chain Consumer](https://samreay.github.io/ChainConsumer/) to produce our Fisher plots. This is a relatively simple package to use, we you simply need to give the package 
+you inverse Fisher. 
+
 # Backend
 To ready our data, to be used in the main script, we show an example notebook containing functions that 
 create the window functions and then the statistics needed in the main script.
 These can be found in the folder [Backend_Scripts](https://github.com/iny333/WM_Paper_repo/tree/main/Backend_Scripts)
+
+Whilst we use our own power spectra functions to produce the 2D and 3D PS, we use [pywst](https://github.com/bregaldo/pywst/tree/master) to produce our RWST results. The paper for this work can be found here: [1905.01372](https://arxiv.org/abs/1905.01372).
+
 # For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
 ```python
 import time
@@ -18,7 +28,7 @@ initial_conditions = p21c.initial_conditions(user_params=user_params,random_seed
 lightcone_fid = p21c.run_lightcone(redshift = 8.813873961895457,max_redshift=9.372252076209087,init_box = initial_conditions
 ,lightcone_quantities=lightcone_quantities,random_seed = random_seed,direc = output_dir,zprime_step_factor=1.0005)
 ```
-### For our parameters' +/-, for the derivatives, we use:
+### For our parameters' Plus/Minus, for the derivatives, we use:
 ### $T_{vir}$
 Plus: astro_params = {'ION_Tvir_MIN':4.740362689494244}, Minus: astro_params = {'ION_Tvir_MIN':4.653212513775344}
 ### $R_{max}$
