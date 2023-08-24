@@ -1,12 +1,10 @@
 ### For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
-<code>
-import time
+<code>import time
 start_time = time.time()
 random_seed = int(start_time/np.random.randint(1,50))
 <code>
 ##Our run of 21cmFast is as follows:
-<code>
-HII_DIM = 256
+<code>HII_DIM = 256
 BOX_LEN = 140
 user_params = {"HII_DIM":HII_DIM, "BOX_LEN": BOX_LEN, "USE_FFTW_WISDOM": True,"USE_INTERPOLATION_TABLES": False}
 lightcone_quantities = ('brightness_temp','xH_box')
