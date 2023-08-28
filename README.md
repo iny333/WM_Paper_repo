@@ -10,7 +10,7 @@ To ready our data, to be used in the main script, we show an example notebook co
 create the window functions and then the statistics needed in the main script.
 These can be found in the folder [Backend_Scripts](https://github.com/iny333/WM_Paper_repo/tree/main/Backend_Scripts).
 
-Whilst we use our own power spectra functions to produce the 2D and 3D PS, we use [pywst](https://github.com/bregaldo/pywst/tree/master) to produce our RWST results. The paper for this work can be found here: [1905.01372](https://arxiv.org/abs/1905.01372).
+Whilst we use our own power spectra functions to produce the 2D and 3D PS, we use [pywst](https://github.com/bregaldo/pywst/tree/master) to produce our RWST results. The paper for this work can be found here: [1905.01372](https://arxiv.org/abs/1905.01372). To summarise our LoS evolution, we use [PyWavelets](https://pywavelets.readthedocs.io/en/latest/), which can easily been installed with pip or conda.
 
 # Simulations
 For our 21cmFast Simulations we used version 3.2.1. To generate the seed we use:
