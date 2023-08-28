@@ -1,5 +1,5 @@
 # Frontend Script
-In the main script, [Frontend_Fisher_Script.ipynb]([https://github.com/iny333/WM_Paper_repo/tree/main/](https://github.com/iny333/WM_Paper_repo/blob/main/Frontend_Fisher_Script.ipynb)), we show we produced our results. This file loads all of our data and then summarises their LoS evolution.
+In the main script, [Frontend_Fisher_Script]([https://github.com/iny333/WM_Paper_repo/tree/main/](https://github.com/iny333/WM_Paper_repo/blob/main/Frontend_Fisher_Script.ipynb)), we show we produced our results. This file loads all of our data and then summarises their LoS evolution.
 We then create the Fisher matrices for our different statistics, as well as their convergences and covariance stability checks, before plotting our Fisher matrices. 
 
 We use [Chain Consumer](https://samreay.github.io/ChainConsumer/) to produce our Fisher plots. This is a relatively simple package to use, we you simply need to give the package 
