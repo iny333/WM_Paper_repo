@@ -1,3 +1,8 @@
+# Introduction
+
+This repo is for the paper _Wavelet Based Statistics for Enhanced 21cm EoR Parameter Constraints_ [2311.00036](https://arxiv.org/abs/2311.00036).
+
+
 # Frontend Script
 In the main script, [Frontend_Fisher_Script.ipynb](https://github.com/iny333/WM_Paper_repo/blob/main/Frontend_Fisher_Script.ipynb) we show we produced our results. This file loads all of our data and then summarises their LoS evolution.
 We then create the Fisher matrices for our different statistics, as well as their convergences and covariance stability checks, before plotting our Fisher matrices. 
